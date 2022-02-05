@@ -1,4 +1,4 @@
-import { FaReact } from 'react-icons/fa';
+import { FaReact, FaNodeJs } from 'react-icons/fa';
 import { SiJavascript, SiPostgresql, SiDjango, SiRubyonrails, SiHeroku, SiCircleci, SiTypescript, SiJest, SiMocha, SiCypress } from 'react-icons/si';
 import { DiNodejs, DiMongodb, DiMysql, DiPython, DiJqueryLogo } from "react-icons/di";
 import { GoGitBranch } from 'react-icons/go';
@@ -15,57 +15,57 @@ export default function Skills() {
             <div className='flex flex-wrap justify-center pt-2'>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiJavascript className='mx-auto text-6xl' />
+                    <SiJavascript color='#fde047' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>JavaScript</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <DiNodejs className='mx-auto text-6xl' />
+                    <FaNodeJs color='#16a34a' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>NodeJS</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <DiPython className='mx-auto text-6xl' />
+                    <DiPython color='#0284c7' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Python</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiRubyonrails className='mx-auto text-6xl' />
+                    <SiRubyonrails color='#e11d48' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Ruby On Rails</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiTypescript className='mx-auto text-6xl' />
+                    <SiTypescript color='#0ea5e9' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Typescript</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <FaReact className='mx-auto text-6xl' />
+                    <FaReact color='#22d3ee' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>ReactJs</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiDjango className='mx-auto text-6xl' />
+                    <SiDjango color='#115e59' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Django</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <DiMongodb className='mx-auto text-6xl' />
+                    <DiMongodb color='#22c55e' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>MongoDB</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiPostgresql className='mx-auto text-6xl' />
+                    <SiPostgresql color='#0891b2' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>PostgreSQL</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <DiMysql className='mx-auto text-6xl' />
+                    <DiMysql color='#f97316' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>MySQL</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <DiJqueryLogo className='mx-auto text-6xl' />
+                    <DiJqueryLogo color='#0284c7' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>jQuery</p>
                 </div>
 
@@ -75,7 +75,7 @@ export default function Skills() {
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiHeroku className='mx-auto text-6xl' />
+                    <SiHeroku color='#d8b4fe' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Heroku</p>
                 </div>
 
@@ -85,17 +85,17 @@ export default function Skills() {
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiJest className='mx-auto text-6xl' />
+                    <SiJest color='#ef4444' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Jest Testing</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiMocha className='mx-auto text-6xl' />
+                    <SiMocha color='#a16207' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Mocha-Chai testing </p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiCypress className='mx-auto text-6xl' />
+                    <SiCypress color='#52525b' className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>Cypress E2E testing </p>
                 </div>
 
