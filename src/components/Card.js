@@ -1,5 +1,5 @@
 import myPicture from '../images/myPicture.jpeg'
-import { FaGithub, FaLinkedin, FaMedium, FaEnvelope, FaEvernote } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaMedium, FaEnvelope } from 'react-icons/fa';
 
 export default function Card() {
     return (
