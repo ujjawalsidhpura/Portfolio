@@ -1,17 +1,32 @@
+import { useEffect } from "react";
 import Card from "./components/Card";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Skills from './components/Skills'
+import Aos from "aos";
+import 'aos/dist/aos.css'
 
-function App() {
+export default function App() {
+
+  useEffect(() => {
+    Aos.init({
+      once: true
+    })
+  })
+
   return (
     <div className="min-h-screen py-10 px-3 sm:px-5 bg-zinc-100 ">
-      <Card />
-      <About />
-      <Skills />
-      <Footer />
-    </div>
-  );
-}
+      <div data-aos='fade-down' data-aos-duration='800'>
+        <Card />
+      </div>
+      <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='400'>
+        <About />
+      </div>
+      <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='800'>
+        <Skills />
+      </div>
 
-export default App;
+      <Footer />
+    </div >
+  )
+}
