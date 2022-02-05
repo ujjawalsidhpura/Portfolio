@@ -13,10 +13,6 @@ export default function Skills() {
             </p>
 
             <div className='flex flex-wrap justify-center pt-2'>
-                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <FaReact className='mx-auto text-6xl' />
-                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>ReactJs</p>
-                </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
                     <SiJavascript className='mx-auto text-6xl' />
@@ -26,6 +22,31 @@ export default function Skills() {
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
                     <DiNodejs className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>NodeJS</p>
+                </div>
+
+                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
+                    <DiPython className='mx-auto text-6xl' />
+                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Python</p>
+                </div>
+
+                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
+                    <SiRubyonrails className='mx-auto text-6xl' />
+                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Ruby On Rails</p>
+                </div>
+
+                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
+                    <SiTypescript className='mx-auto text-6xl' />
+                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Typescript</p>
+                </div>
+
+                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
+                    <FaReact className='mx-auto text-6xl' />
+                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>ReactJs</p>
+                </div>
+
+                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
+                    <SiDjango className='mx-auto text-6xl' />
+                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Django</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
@@ -41,22 +62,6 @@ export default function Skills() {
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
                     <DiMysql className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>MySQL</p>
-                </div>
-
-                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <DiPython className='mx-auto text-6xl' />
-                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Python</p>
-
-                </div>
-
-                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiDjango className='mx-auto text-6xl' />
-                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Django</p>
-                </div>
-
-                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiRubyonrails className='mx-auto text-6xl' />
-                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Ruby On Rails</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
@@ -77,11 +82,6 @@ export default function Skills() {
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
                     <SiCircleci className='mx-auto text-6xl' />
                     <p className='mt-6 text-base sm:text-base font-semibold text-center'>CI / CD</p>
-                </div>
-
-                <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
-                    <SiTypescript className='mx-auto text-6xl' />
-                    <p className='mt-6 text-base sm:text-base font-semibold text-center'>Typescript</p>
                 </div>
 
                 <div className='flex flex-col w-40 p-10 m-6 overflow-hidden bg-white shadow-2xl rounded-xl sm:w-52'>
