@@ -1,4 +1,10 @@
-import myPicture from '../images/myPicture.jpeg'
+import myPicture from '../images/myPicture.jpeg';
+import mpro from '../images/mpro.gif';
+import bubbles from '../images/bubbles.gif';
+import scheduler from '../images/scheduler.gif';
+import jungle from '../images/jungle.gif';
+import spaceshooter from '../images/spaceshooter.png';
+import chatbot from '../images/chatBot.png';
 
 export default function Projects() {
 
@@ -16,8 +22,8 @@ export default function Projects() {
                         <div className="flex flex-col justify-center max-w-ms mx-auto bg-white shadow-xl rounded-xl p-5 hover:bg-gray-300 hover:ring-gray-300 hover:transition-colors duration-300 ease-in-out"
                         >
                             <div className="">
-                                <img src={myPicture} alt="profile"
-                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm" />
+                                <img src={mpro} alt="profile"
+                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm h-48" />
                             </div>
                             <div className='text-center mt-5'>
                                 <p className='text-base my-2 sm:text-xl text-gray-900 '>
@@ -42,8 +48,8 @@ export default function Projects() {
 
                         >
                             <div className="">
-                                <img src={myPicture} alt="profile"
-                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm" />
+                                <img src={bubbles} alt="profile"
+                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm h-48" />
                             </div>
                             <div className='text-center mt-5'>
                                 <p className='text-base my-2 sm:text-xl text-gray-900 '>
@@ -66,8 +72,8 @@ export default function Projects() {
 
                         >
                             <div className="">
-                                <img src={myPicture} alt="profile"
-                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm" />
+                                <img src={scheduler} alt="profile"
+                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm h-48" />
                             </div>
                             <div className='text-center mt-5'>
                                 <p className='text-base my-2 sm:text-xl text-gray-900 '>
@@ -91,8 +97,8 @@ export default function Projects() {
 
                         >
                             <div className="">
-                                <img src={myPicture} alt="profile"
-                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm" />
+                                <img src={spaceshooter} alt="profile"
+                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm h-48" />
                             </div>
                             <div className='text-center mt-5'>
                                 <p className='text-base my-2 sm:text-xl text-gray-900 '>
@@ -114,8 +120,8 @@ export default function Projects() {
                         <div className="flex flex-col justify-center max-w-ms mx-auto bg-white shadow-xl rounded-xl p-5 hover:bg-gray-300 hover:ring-gray-300 hover:transition-colors duration-300 ease-in-out"
                         >
                             <div className="">
-                                <img src={myPicture} alt="profile"
-                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm" />
+                                <img src={chatbot} alt="profile"
+                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm h-48" />
                             </div>
                             <div className='text-center mt-5'>
                                 <p className='text-base my-2 sm:text-xl text-gray-900 '>
@@ -138,8 +144,8 @@ export default function Projects() {
                         <div className="flex flex-col justify-center max-w-ms mx-auto bg-white shadow-xl rounded-xl p-5 hover:bg-gray-300 hover:ring-gray-300 hover:transition-colors duration-300 ease-in-out"
                         >
                             <div className="">
-                                <img src={myPicture} alt="profile"
-                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm" />
+                                <img src={jungle} alt="profile"
+                                    className="w-64 mx-auto shadow-xl rounded-xl drop-shadow-sm h-48" />
                             </div>
                             <div className='text-center mt-5'>
                                 <p className='text-base my-2 sm:text-xl text-gray-900 '>
