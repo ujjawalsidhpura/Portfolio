@@ -1,11 +1,12 @@
 import { useEffect } from "react";
+import CustomChatbot from "./chatbot/ChatBot";
 import Card from "./components/Card";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Aos from "aos";
-import 'aos/dist/aos.css'
+import 'aos/dist/aos.css';
 
 export default function App() {
 
@@ -33,7 +34,7 @@ export default function App() {
       <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='500'>
         <Skills />
       </div>
-
+      <CustomChatbot eventHandler={this.clickEventHandler} />
       <Footer />
     </div >
   )
