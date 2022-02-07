@@ -71,13 +71,13 @@ export default function Projects() {
                         </div>
                         <div className='text-center mt-5'>
                             <p className='text-base my-2 sm:text-xl text-gray-900 '>
-                                MaintenancePro
+                                Scheduler
                             </p>
                             <p className='text-xs text-left sm:text-xs text-gray-600 w-auto inline-block border-b-2 h-48'>
-                                A fully deployed MERN stack app created from scratch to serve to a real client for testing purpose. MaintenancePro is aComputerized Maintenance Management System that assist property managers to handle their operations in effi cient manner.
-                                Backend: MongoDb, NodeJs, Express, Heroku, JavaScript, TypeScript
-                                Frontend: ReactJS, Auth0, Mailgun, Recharts, Bulma , CircleCI, Netlify
-                                Testing: Jest, Storybook, Cypress
+                                A fully deployed PERN stack app that handles appointments. Created using Test Driven Development TDD Model, it leverages different testing libraries to ensure app integrity.
+                                <br />
+                                Frontend: ReactJS, BootStrap, SCSS, Heroku, CircleCI, Netlify
+                                Testing: Jest (ESLint), Storybook(Unit), Cypress (E2E)
                             </p>
                         </div>
                     </div>
@@ -93,13 +93,13 @@ export default function Projects() {
                         </div>
                         <div className='text-center mt-5'>
                             <p className='text-base my-2 sm:text-xl text-gray-900 '>
-                                MaintenancePro
+                                SpaceShooter
                             </p>
                             <p className='text-xs text-left sm:text-xs text-gray-600 w-auto inline-block border-b-2 h-48'>
-                                A fully deployed MERN stack app created from scratch to serve to a real client for testing purpose. MaintenancePro is aComputerized Maintenance Management System that assist property managers to handle their operations in effi cient manner.
-                                Backend: MongoDb, NodeJs, Express, Heroku, JavaScript, TypeScript
-                                Frontend: ReactJS, Auth0, Mailgun, Recharts, Bulma , CircleCI, Netlify
-                                Testing: Jest, Storybook, Cypress
+                                A space invader shooting game created using Python to demonstrate basic understanding of Python and learning ability to adaptnew languages quickly.
+                                <br />
+                                <br />
+                                Python, Pygame
                             </p>
                         </div>
                     </div>
@@ -115,17 +115,19 @@ export default function Projects() {
                         </div>
                         <div className='text-center mt-5'>
                             <p className='text-base my-2 sm:text-xl text-gray-900 '>
-                                MaintenancePro
+                                ChatBot
                             </p>
                             <p className='text-xs text-left sm:text-xs text-gray-600 w-auto inline-block border-b-2 h-48'>
-                                A fully deployed MERN stack app created from scratch to serve to a real client for testing purpose. MaintenancePro is aComputerized Maintenance Management System that assist property managers to handle their operations in effi cient manner.
-                                Backend: MongoDb, NodeJs, Express, Heroku, JavaScript, TypeScript
-                                Frontend: ReactJS, Auth0, Mailgun, Recharts, Bulma , CircleCI, Netlify
-                                Testing: Jest, Storybook, Cypress
+                                An automated ChatBot that leverages tflearn to implement basic machine learning and add vocabulary to JSON database. It takes in user input and filters through existing data to give most relevant response. Respond with premediated message if it cannot comprehend user command. Connect this model with Discord chatbot.
+
+                                <br />
+                                <br />
+                                Python, tflearn, machine learning , data-modelling, Discord automated chat
                             </p>
                         </div>
                     </div>
                 </div>
+
 
                 <div className="w-80 m-2">
                     <div className="flex flex-col justify-center max-w-ms mx-auto bg-white shadow-xl rounded-xl p-5 hover:bg-gray-300 hover:ring-gray-300 hover:transition-colors duration-300 ease-in-out"
@@ -137,13 +139,13 @@ export default function Projects() {
                         </div>
                         <div className='text-center mt-5'>
                             <p className='text-base my-2 sm:text-xl text-gray-900 '>
-                                MaintenancePro
+                                Jungle Rails
                             </p>
                             <p className='text-xs text-left sm:text-xs text-gray-600 w-auto inline-block border-b-2 h-48'>
-                                A fully deployed MERN stack app created from scratch to serve to a real client for testing purpose. MaintenancePro is aComputerized Maintenance Management System that assist property managers to handle their operations in effi cient manner.
-                                Backend: MongoDb, NodeJs, Express, Heroku, JavaScript, TypeScript
-                                Frontend: ReactJS, Auth0, Mailgun, Recharts, Bulma , CircleCI, Netlify
-                                Testing: Jest, Storybook, Cypress
+                                A mini e-commerce application built with Ruby on Rails 4.2 to learn basics of working with Ruby and Rails and tested using RSpec.
+                                <br></br>
+                                <br></br>
+                                Ruby on Rails, Stripe, PostgreSQL, RSpec.
                             </p>
                         </div>
                     </div>

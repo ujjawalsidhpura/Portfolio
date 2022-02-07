@@ -30,7 +30,7 @@ export default function App() {
         <Projects />
       </div>
 
-      <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='1000'>
+      <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='500'>
         <Skills />
       </div>
 
