@@ -8,8 +8,8 @@ export default function Skills() {
     return (
 
         <div className="max-w-8xl mx-auto justify-center py-6" id='tech'>
-            <p className="text-xl sm:text-2xl text-gray-900 pt-4 font-bold text-center">
-                Tech / Skills
+            <p className="text-base sm:text-2xl text-gray-900 pt-4 text-center ">
+                Tech | Skills
             </p>
 
             <div className='flex flex-wrap justify-center pt-2'>
