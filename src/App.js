@@ -34,7 +34,7 @@ export default function App() {
       <div data-aos='fade-down' data-aos-duration='800' data-aos-delay='500'>
         <Skills />
       </div>
-      <CustomChatbot eventHandler={this.clickEventHandler} />
+      <CustomChatbot />
       <Footer />
     </div >
   )
