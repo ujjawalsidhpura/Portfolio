@@ -58,7 +58,7 @@ export default function Projects() {
                                     Bubbles
                                 </p>
                                 <p className='text-xs text-left sm:text-xs text-gray-600 w-auto inline-block border-b-2 h-48'>
-                                    Bubbles is a fancy looking bubble tea ordering app for a fi ctitious joint. User can place an order and receive SMS confi rmation ofthe order. App owner also get a SMS notification regarding order details. App uses database schema created by us and is a full stackapplication.
+                                    Bubbles is a full stack fancy looking bubble tea ordering app for a fi ctitious joint. User can place an order and receive SMS confirmation ofthe order. App owner also get a SMS notification regarding order details. App uses a SQL database schema created by me.
                                     <br></br>
                                     <br></br>
                                     NodeJS, Express, jQuery, CSS, Bulma (CSS framework), Twilio (SMS API), PostgreSQL, Version Control and working in multiplebranches
