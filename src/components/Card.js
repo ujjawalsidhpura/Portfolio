@@ -3,7 +3,7 @@ import { FaGithub, FaLinkedin, FaMedium, FaEnvelope } from 'react-icons/fa';
 
 export default function Card() {
     return (
-        <div className="w-1/2 mx-auto">
+        <div className="w-1/2 mx-auto max-w-sm">
             <div className="flex flex-col justify-center max-w-ms mx-auto bg-white shadow-xl rounded-xl p-5 ">
                 <div className="">
                     <img src={myPicture} alt="profile"
