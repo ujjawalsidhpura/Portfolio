@@ -12,7 +12,7 @@ export default function Projects() {
 
         <div className="max-w-8xl mx-auto justify-center py-6" id='tech'>
             <p className="text-base sm:text-2xl text-gray-900 pt-4  text-center">
-                Projects
+
             </p>
 
             <div className='flex flex-wrap justify-center pt-2'>
